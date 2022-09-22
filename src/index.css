@@ -26,7 +26,7 @@ body{
   flex-wrap: wrap;
   margin-bottom: 50px;
   border: 1px solid black;
-  width: 340px;
+  width: 100%;
   height: auto;
   display: flex;
   /* margin-left: 50px; */
@@ -71,7 +71,7 @@ body{
   .heading{
     text-align: center;
     font-size: 14px;
-    margin-left: 68px;
+    margin-left: 8px;
   }
 
   
@@ -79,7 +79,7 @@ body{
   .flex{
     display: flex;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 1px;
   }
   
   .main:hover{
@@ -95,12 +95,10 @@ body{
     flex-wrap: wrap;
     margin-bottom: 8px;
     border: 1px solid black;
-    width: 150px;
     height: auto;
-    display: flex;
-    margin-left: 1px;
     transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
     border-radius: 5px;
+    margin-right: 100px;
   
   }
   
@@ -109,6 +107,7 @@ body{
     color: #fff;
     margin-top: 5px;
     display: inline-block;
+    margin-right: 100px;
   
   }
   
